@@ -3,9 +3,9 @@ package iloveyouboss;
 import java.util.*;
 
 public class ScoreCollection {
-	private List<Scorable> scores = new ArrayList<>();
+	private List<Scoreable> scores = new ArrayList<>();
 
-	public void add(Scorable scoreable) {
+	public void add(Scoreable scoreable) {
 		scores.add(scoreable);
 	}
 
